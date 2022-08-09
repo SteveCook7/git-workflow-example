@@ -1,5 +1,6 @@
 router ospf 1
 network 0.0.0.0 255.255.255.255 area 0
+network 10.0.0.0 0.0.0.255 area 110
 network 192.168.0.0 0.0.255.255 area 1
 no auto-summary
 
